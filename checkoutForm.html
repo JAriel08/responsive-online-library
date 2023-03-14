@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <div class="checkout-form">
+        <div class="check-body">
+            <div class="check-heading">
+                <div class="check-title">
+                    <span class="check-out">Checkout</span>
+                </div>
+                <div class="check-subtitle">
+                    <span class="billing">Personal Information</span>
+                </div>
+                <div class="check-name">
+                    <span class="name">Name</span>
+                    <div>
+                        <input type="text" placeholder="First Name" class="first-name">
+                        <input type="text" placeholder="Last Name" class="last-name">
+                    </div>
+                </div>
+                <div class="check-contact">
+                    <span class="contact">Contact</span>
+                    <div>
+                        <input type="text" placeholder="E-mail Address" class="email-address" >
+                        <input type="text" placeholder="Phone Number" class="phone-number">
+                    </div>
+                </div>
+                <div class="check-address">
+                    <span class="address">Address</span>
+                    <div>
+                        <input type="text" placeholder="Street" class="street">
+                        <input type="text" placeholder="City" size="24" class="city">
+                        <input type="text" placeholder="State" size="24" class="state">
+                        <input type="text" placeholder="Zip Code" size="24" class="zip-code">
+                    </div>
+                </div>
+                <div class="payment-options">
+                    <span>Payment Option</span>
+                </div>
+                <div class="payment-option">
+                    <div>
+                        <input type="radio" name="paymentMethod" id="creditCard" value="creditCard">
+                        <label for="creditCard">Credit Card</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="paymentMethod" id="payPal" value="payPal">
+                        <label for="payPal">PayPal</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="paymentMethod" id="gCash" value="gCash">
+                        <label for="gCash">GCash</label>
+                    </div>
+                </div>
+                <div class="proceed">
+                    <span><a href="index.html">Back</a></span>
+                    <button class="continue">Save & Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

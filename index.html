@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7cfc1837b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Online Library</title>
+</head>
+<body>
+    <header class="heading">
+        <div class="logo">
+            <i class="fa-solid fa-book-open"></i>
+            <span>JAL Online Library</span>
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Section -->
+    <section class="sec-bar">
+        <div class="sec-logo">
+            <i class="fa-solid fa-swatchbook"></i>
+            <span>Bookshelf</span>
+        </div>
+        <div class="sec-search">
+            <input type="text" placeholder="Book Title, Author, etc." class="search-bar">
+            <select name="userPrefer" id="userPrefer">
+                <option value="" disabled selected>Filter</option>
+                <option value="fiction">Fiction</option>
+                <option value="historical">Historical</option>
+                <option value="mystery">Mystery</option>
+                <option value="novel">Novel</option>
+                <option value="narrative">Narrative</option>
+            </select>
+            <button class="search-button">SEARCH</button>
+        </div>
+        <div class="sec-inventory">
+            <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Books -->
+    <section class="book-list">
+        <!-- 1st Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="./assets/images/image1.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">
+                        To Kill A Mockingbird
+                    </span>
+                    <span class="author">by Harper Lee</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        To Kill a Mockingbird is both a young girl's coming-of-age story and a darker drama about the
+                        roots and consequences of racism and prejudice, probing how good and evil can coexist within a single community or individual.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button>
+                    <span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span>
+                </button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>155 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 2nd Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image2.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">
+                        The Great Gastby
+                    </span>
+                    <span class="author">by F. Scott Fitzgerald</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        F. Scott Fitzgerald's novel,The Great Gatsby, follows Jay Gatsby, a man who orders his life around one desire: to be reunited with Daisy Buchanan, the love he lost five years earlier. Gatsby's quest leads him from poverty to wealth, into the arms of his beloved, and eventually to death.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button>
+                    <span><i class="fa-solid fa-cart-plus"></i>Add To Cart
+                    </span>
+                </button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>371 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 3rd Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image3.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">
+                        Nineteen Eighty-Four
+                    </span>
+                    <span class="author">by George Orwell</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        1984 is a dystopian novella by George Orwell published in 1949, which follows the life of Winston Smith, a low ranking member of 'the Party', who is frustrated by the omnipresent eyes of the party, and its ominous ruler Big Brother.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button><span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span></button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>549 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 4th Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image4.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">Adventures of Huckleberry</span>
+                    <span class="author">by F. Scott Fitzgerald</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        Adventures of Huckleberry Finn is one of Mark Twain's best-known and most important novels. The novel tells the story of Huckleberry Finn's escape from his alcoholic and abusive father and Huck's adventurous journey down the Mississippi River together with the runaway slave Jim.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button><span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span></button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>445 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 5th Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image5.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">It Starts with Us</span>
+                    <span class="author">by Colleen Hoover</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        In “It Starts With Us,” Atlas and Lily attempt to rekindle the love they felt for each other as teenagers, but must deal with the repercussions their love may have now as adults. Hoover illustrates a beautiful, innocent love between Atlas and Lily. Atlas and Lily love each other like kids.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button><span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span></button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>895 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 6th Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image6.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">It Ends with Us</span>
+                    <span class="author">by Colleen Hoover</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>It Ends with Us is a book that follows a girl named Lily who has just moved and is ready to start her life after college. Lily then meets a guy named Ryle and she falls for him. As she is developing feelings for Ryle, Atlas, her first love, reappears and challenges the relationship between Lily and Ryle.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button><span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span></button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>845 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 7th Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image7.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">Lessons in Chemistry</span>
+                    <span class="author">by Bonnie Garmus</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        Lessons in Chemistry (2022) is a bestselling novel by Bonnie Garmus about women's lives, careers, and struggle for empowerment in the late 50s and early 60s. It follows the story of Elizabeth Zott, a brilliant chemist who is forced to become a television chef when she finds herself a young, single mother.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button><span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span></button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>206 - BUY NOW</span></button></a>
+            </div>
+        </div>
+
+        <!-- 8th Book -->
+        <div class="sec-books">
+            <div class="book-image">
+                <img src="assets/images/image8.jpg">
+            </div>
+            <div class="book-text">
+                <div class="title-review">
+                    <span class="title">The 48 Laws of Power</span>
+                    <span class="author">by Robert Greene</span>
+                    <span class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </div>
+                <div class="paragraph">
+                    <span>
+                        Consequently, in his controversial book, “The 48 Laws of Power,” best-selling author Robert Greene argues that if you manage to seduce, charm, and deceive your opponents, you will attain the ultimate power. Greene states that the better you become at handing power, the better person you will become.
+                    </span>
+                </div>
+            </div>
+            <div class="book-add-to">
+                <button><span><i class="fa-solid fa-cart-plus"></i>Add To Cart</span></button>
+            </div>
+            <div class="book-wish-to">
+                <button><span><i class="fa-solid fa-heart"></i>Add To Wishlist</span></button>
+            </div>
+            <div class="book-buy-now">
+                <a href="checkoutForm.html"><button><span><i class="fa-solid fa-peso-sign"></i>1,299 - BUY NOW</span></button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="f-content">
+            <div class="f-text">
+                <span class="brand-name">JAL Online Library</span>
+                <span class="brand-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate sapiente eaque tenetur distinctio quo maiores sit omnis quasi quam enim, expedita possimus iste nam laudantium tempore quae inventore, quas repellat.
+                </span>
+            </div>
+            <div class="help-center">
+                <span class="help">Help</span>
+                <a href="#"><span>Payment</span></a>
+                <a href="#"><span>Shipping</span></a>
+                <a href="#"><span>Cancellation</span></a>
+                <a href="#"><span>Returns</span></a>
+            </div>
+            <div class="f-policy">
+                <span class="policy">Policy</span>
+                <a href="#"><span>Return</span></a>
+                <a href="#"><span>Security</span></a>
+                <a href="#"><span>Privacy</span></a>
+                <a href="#"><span>Sitemap</span></a>
+            </div>
+            <div class="f-socials">
+                <span class="socials">Socials</span>
+                <a href="#"><span>Facebook</span></a>
+                <a href="#"><span>LinkedIn</span></a>
+                <a href="#"><span>Instagram</span></a>
+                <a href="#"><span>Google</span></a>
+            </div>
+        </div>
+        <div class="copyright-page">
+            <span>&copy; 2023 JALalap | All Rights Reserved</span>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: whitesmoke;
+}
+
+.heading {
+    background-image: url(images/header.jpg);
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+}
+.logo {
+    width: 100%;
+    background-color: #eee6e693;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo span {
+    font-size: 50px;
+    color: black;
+    padding-left: 10px;
+}
+.logo i {
+    font-size: 50px;
+    color: black;
+}
+.nav-bar {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDEEDC
+}
+.nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-list li {
+    list-style-type: none;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.nav-list a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/* Search Section */
+.sec-bar {
+    height: 100px;
+    background-color: #FFD8A9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec-logo {
+    font-size: 50px;
+}
+.search-button {
+    border-radius: 5px;
+    padding: 0 3px;
+    background-color: #e38c2970;
+}
+.sec-search {
+    width: 800px;
+}
+.search-bar {
+    width: 80%;
+}
+.sec-inventory {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-inventory button {
+    font-size: x-large;
+}
+.sec-inventory span {
+    padding: 0 2px 0 0;
+}
+.sec-inventory i {
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/* Book Section */
+.book-list {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    background-color: whitesmoke;
+    padding: 0 20px;
+}
+.sec-books {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDEEDC;
+    border-radius: 10px;
+    margin: 30px;
+}
+.book-image {
+    height: 200px;
+}
+.book-image img {
+    height: 200px;
+    padding: 10px 0;
+    margin: 0 0 20px 0;
+}
+.book-text {
+    height: 300px;
+}
+.title-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.title {
+    font-weight: 900;
+    font-size: 20px;
+    align-self: center;
+}
+.author {
+    font-size: 11px;
+    align-self: center;
+}
+.review {
+    align-self: center;
+    color: rgb(231, 231, 115);
+}
+.paragraph {
+    padding: 10px;
+    font-size: 15px;
+}
+.book-add-to {
+    display: flex;
+    justify-content: center;
+}
+.book-add-to span {
+    background-color: #F1A661;
+    padding: 0 84px;
+    width: 300px;
+}
+.book-add-to i {
+    padding: 0 16px;
+}
+.book-wish-to {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.book-wish-to span {
+    background-color: #F1A661;
+    padding: 0 74px;
+    width: 300px;
+}
+.book-wish-to i {
+    padding: 0 16px;
+}
+.book-buy-now {
+    height: 50px;
+}
+.book-buy-now span {
+    border: none;
+    background-color: #E38B29;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 294px;
+}
+.book-buy-now span:hover {
+    text-decoration: underline;
+}
+.book-wish-to span:hover {
+    text-decoration: underline;
+}
+.book-add-to span:hover {
+    text-decoration: underline;
+}
+.book-buy-now a {
+    height: auto;
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    
+    /* padding: 20px; */
+}
+.f-content {
+    background-color: #F1A661;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.f-text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.brand-name {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0;
+}
+.brand-description {
+    padding: 0 0 10px 0;
+    font-size: 12px;
+}
+.help-center {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.help-center a {
+    color: black;
+    text-decoration: none;
+}
+.help-center a:hover {
+    text-decoration: underline;
+}
+.f-policy span, .f-socials span, .help-center span {
+    font-size: 12px;
+}
+.help, .policy, .socials {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0;
+}
+.f-policy {
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f-policy a {
+    color: black;
+    text-decoration: none;
+}
+.f-policy a:hover {
+    text-decoration: underline;
+}
+.f-socials {
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f-socials a {
+    color: black;
+    text-decoration: none;
+}
+.f-socials a:hover {
+    text-decoration: underline;
+}
+
+.copyright-page {
+    background-color: #E38B29;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Checkout Form */
+.checkout-form {
+    background-color: whitesmoke;
+    margin: 100px 0;
+    width: 100%;
+    padding: 20px;
+}
+.check-body {
+    width: 100%;
+    
+}
+.check-heading {
+    border: 1px black solid;
+
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.check-title {
+    display: flex;
+    font-weight: 900;
+    font-size: 25px;
+    justify-content: center;
+    background-color: #E38B29;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.check-subtitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFD8A9;
+}
+.billing {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.name, .contact, .address {
+    width: 100%;
+}
+.first-name, .last-name, .phone-number, .email-address {
+    width: 49%;
+}
+.check-name, .check-contact, .check-address, .check-city {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.street {
+    width: 65%;
+}
+.city {
+    width: 33%;
+}
+.state {
+    width: 50%;
+}
+.zip-code {
+    width: 48%;
+}
+.payment-text {
+    background-color: #FFD8A9;
+}
+.payment-options span {
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+}
+.payment-options {
+    padding: 10px 0 10px 5px;
+    background-color: #FFD8A9;
+}
+.payment-option {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.proceed {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1A661;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 5px 10px 5px;
+}
+.proceed a {
+    text-decoration: none;
+    color: black;
+}
+.proceed a:hover {
+    text-decoration: underline;
+}
+.continue {
+    background-color: #E38B29;
+    padding: 5px;
+    border: 0;
+}
+.continue:hover {
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    .heading {
+        width: 600px;
+    }
+    .nav-bar {
+        display: block;
+        height: auto;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .nav-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 auto;
+    }
+
+    /* Search Section */
+    .sec-bar {
+        height: auto;
+        width: 600px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .sec-logo {
+        font-size: 30px;
+    }
+    .sec-search {
+        margin: 5px;
+        width: 100%;
+    }
+    .searh-bar {
+        width: 50%;
+    }
+
+    /* Books */
+    .book-list {
+        margin: 20px 10px;
+    }
+    .sec-books {
+        margin: 0 10px 20px 10px;
+        padding: 0;
+        height: 300px;
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        background-color: #FDEEDC;
+    }
+    .book-image {
+        width: 150px;
+        display: flex;
+    }
+    .book-image img {
+        height: 225px;
+        padding: 0 0 0 10px;
+        position: relative;
+        top: -10px;
+    }
+    .book-text {
+        height: 150px;
+        width: 300px;
+        display: block;
+        flex-direction: column;
+        justify-content: right;
+    }
+    .title-review {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        position: relative;
+        top: -65px;
+        left: 40px;
+    }
+    .title {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .author {
+        font-size: 10px;
+        align-self: center;
+    }
+    .review {
+        align-self: center;
+        font-size: 10px;
+    }
+    .paragraph {
+        padding: 0;
+        font-size: 13px;
+        text-align: justify;
+        width: 300px;
+        position: relative;
+        top: -45px;
+        left: 35px;
+    }
+    .book-add-to {
+        height: 45px;
+        display: block;
+        position: relative;
+        top: 107px;
+        left: -245px;
+        border: 0;
+    }
+    .book-add-to button {
+        height: 48px;
+        width: 80px;
+        background-color: #F1A661;
+    }
+    .book-add-to span {
+        padding: 0;
+    }
+    .book-add-to i {
+        padding: 0;
+    }
+    .action {
+        display: flex;
+    }
+    .book-wish-to {
+        display: block;
+        border: 0;
+        position: relative;
+        left: -240px;
+        top: 109px;
+    }
+    .book-wish-to span {
+        padding: 0;
+    }
+    .book-wish-to button {
+        height: 48px;
+        width: 80px;
+        background-color: #F1A661;
+    }
+    .book-wish-to i {
+        padding: 0;
+    }
+    .book-buy-now {
+        display: block;
+        position: relative;
+        border: 0;
+        top: 113px;
+        left: -235px;
+    }
+    .book-buy-now button {
+        height: 48px;
+        background-color: #F1A661;
+        border-radius: 0;
+    }
+    .book-buy-now span {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        width: 90px;
+        height: 42px;
+    }
+    .book-buy-now i {
+        padding-left: 10px;
+    }
+    .book-buy-now a {
+        text-decoration: none;
+        font-size: 14px;
+        position: relative;
+        top: -3px;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: small;
+        width: 600px;
+    }
+
+    .f-content {
+        display: block;
+        text-align: center;
+    }
+    .f-text,
+    .help-center,
+    .f-policy,
+    .f-socials {
+        width: 100%;
+    }
+    .f-socials {
+        padding-bottom: 10px;
+    }
+    .brand-name,
+    .help,
+    .policy,
+    .socials {
+        padding: 10px 0 0 0;
+    }
+    .brand-description {
+        width: 100%;
+        display: flex;
+        justify-self: center;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    
+    /* Checkout Form */
+    .checkout-form {
+        width: 100%;
+    }
+    .check-body {
+        width: 100%;
+    }
+    .check-heading {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    .street {
+        width: 100%;
+    }
+    .city {
+        width: 100%;
+    }
+    .state {
+        width: 100%;
+    }
+    .zip-code {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .sec-bar {
+        height: 200px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+    .sec-bar {
+        height: 150px;
+    }
+}
+@media (min-width: 601px) and (max-width: 759px) {
+    .sec-bar {
+        height: 180px;
+    }
+    .sec-search {
+        padding-left: 10px;
+    }
+    .sec-books {
+        margin: 10px auto;
+    }
+}
+@media (min-width: 759px) and (max-width: 768px) {
+    .sec-bar {
+        height: 180px;
+    }
+}
